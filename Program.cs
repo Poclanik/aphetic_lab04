@@ -22,7 +22,7 @@ using System.Diagnostics;
 // Console.WriteLine("Готово.");
 
 
-int threadCount = Environment.ProcessorCount;
+int threadCount = 1;
 
 Console.WriteLine($"Логических процессоров: {threadCount}");
 
