@@ -5,8 +5,8 @@ using System.Diagnostics;
 // Console.WriteLine($"Архитектура процесса: {RuntimeInformation.ProcessArchitecture}");
 // Console.WriteLine($"64-битный процесс: {Environment.Is64BitProcess}");
 
-Console.WriteLine($"Логических процессоров: {Environment.ProcessorCount}");
-Console.WriteLine("Запуск вычислений...");
+// Console.WriteLine($"Логических процессоров: {Environment.ProcessorCount}");
+// Console.WriteLine("Запуск вычислений...");
 
 Stopwatch timer = Stopwatch.StartNew();
 long result = 0;
